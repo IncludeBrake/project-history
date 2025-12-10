@@ -363,3 +363,4 @@ To get real value from `ph`, enforce these habits:
   * Attach it with `ph add-note`.
 
 Over time, `ph` becomes the index of your projects’ reality, not just another tool.
+
