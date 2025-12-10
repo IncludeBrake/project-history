@@ -1,0 +1,22 @@
+[project]
+name = "ph"
+version = "0.1.0"
+description = "CLI tool for tracking project history across repos"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "sqlmodel",
+    "typer",
+    "rich",
+    "gitpython",
+]
+
+[project.scripts]
+ph = "ph.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+package = true
